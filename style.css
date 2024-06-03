@@ -1,0 +1,356 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Bg\ image.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 80% auto;
+}
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#menu a{
+    padding: 15px;
+}
+
+#menu li:last-child {
+    margin-left: 60px;
+}
+
+header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container h2{
+    font-size: 60px;
+}
+
+#intro{
+    height: 80vh;
+}
+
+#goods h2{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.good-child {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.good-child h3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#goods .container{
+    padding-bottom: 100px;
+}
+
+#booking .container{
+    width: 46.7%;
+    padding-top: 150px;
+}
+
+.curved{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border: 20px;
+    border-radius: 20px 50px 0px 0px ;
+}
+
+
+#details{
+    border-radius: 0px 10px 10px 10px ;
+    display: flex;
+}
+
+#details .inner{
+    background-color: #fff;
+    margin: 17px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.inner{
+    align-items: center;
+
+}
+
+.inner img{
+    padding: 20px;
+}
+
+.box{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+#date{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.search{
+    margin-left: 68px;
+}
+
+.search img{
+    padding-top: 50%;
+    padding-right: 100%;
+}
+
+
+.forms{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.questions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#blurred{
+    background: rgba(255, 255, 255, 0.6499999761581421);
+ 
+    border: 1px solid rgba(81, 77, 89, 0.1);
+    border-radius: 0px 20px 20px 20px;
+    
+    box-shadow: 0px 0px 0px rgba(81, 77, 89, 0.15), 0px 12px 27px rgba(81, 77, 89, 0.15), 0px 49px 49px rgba(81, 77, 89, 0.13), 0px 110px 66px rgba(81, 77, 89, 0.08), 0px 195px 78px rgba(81, 77, 89, 0.02), 0px 304px 85px rgba(81, 77, 89, 0);
+    backdrop-filter: blur(50px);
+}
+
+#places{
+    background-color: #fafafa;
+}
+
+#places .container{
+    width: 1055px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#places .container .toflex{
+    display: flex;
+    align-items: center;
+}
+
+#places .container .toflex .desc {
+    padding-left: 105px;
+    padding-right: 24px;
+}
+
+#places .container #second{
+    flex-direction: row-reverse;
+}
+
+#places .container #second .desc{
+    padding-left: 24px;
+}
+
+#places .container .toflex .desc p{
+    color: #514D59;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#places .container .toflex .desc h3{
+    color: #514D59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#places .container .toflex .desc a{
+    color: #7000FF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#places .container .toflex .desc img {
+    width: 12px;
+    height: 12px;
+}
+
+#reviews .container{
+    background-image: url(./Users.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 442px;
+    margin-top: 45px;
+    margin-top: 50px;
+}
+
+#reviews .inreview{
+    width: 692px;
+}
+
+#reviews #inreview h3{
+    text-align: center;
+    font-size: 50px;
+    color: #514D59;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 42px;
+}
+#reviews #inreview p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #514D59;
+}
+
+#reviews #inreview #username{
+    text-align: left;
+}
+
+/* Tags above Footer */
+
+#tagbox{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+#tags .sub {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#tags .sub ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#tags .sub ul{
+    list-style: none;
+}
+
+#tags #mainlogo{
+    width: 260;
+    height: 78px;
+    margin-top: 31px;
+}
+
+#tags #socials img{
+    width: 30px;
+    height: 30px;
+}
+
+#tags #socials a{
+    text-decoration: none;
+}
+
+#tagbox .sub{
+    margin-right: 100px;
+}
+
+#logoboxes{
+    margin-right: 120px;
+}
+
+#socials{
+    margin-top: 60px;
+}
+
+#twitt{
+    margin-left: 25px;
+    margin-right: 25px ;
+}
+
+.sub h3{
+    margin-top: 31px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.sub li{
+    margin-bottom: 15px;
+}
+
+#lastbox{
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 84px;
+}
+
+#lastbox1{
+    width: 80%;
+}
+
+#lastbox1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+}
+
+#box-r a:nth-child(2){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#lastbox1 a{
+    text-decoration: none;
+    color: #625F67;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 500px){
+    #menu li:last-child {
+            margin: 0px;
+        }
+    #goods .container .flex{
+        display: block;
+        }
+    #places .container .toflex{
+        display: block;
+    }
+    #places .container .toflex .desc a{
+        margin-left: 100px;
+    }
+    
+}
